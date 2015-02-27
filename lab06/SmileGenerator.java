@@ -6,13 +6,22 @@ public class SmileGenerator{//define name of class
         //main method 
         int i = 0;//initialize counter
         //step 1 part 1
-        System.out.println("Step 1");//show step 1
+        System.out.println("Step 1 part 1");//show step 1 part 1
         while ( i < 5 ){
             System.out.print(":)");//printing out smiley faces
             i++;//counter plus 1 
         }
+        System.out.println("");
+        //step 1 part 2
+        System.out.println("Step 1 part 1");//show step 1 part 1
+        i = 0;//initialize counter
+        do {
+            System.out.print(":)");//printing out smiley faces
+            i++;//counter plus 1 
+        } while( i < 5 );
+        System.out.println("");
         System.out.println("Step 2");//show step 2
-        //step 2 part 2
+        //step 2
         int numberOfSmilelyFaces = (int) ( 100 * Math.random()) + 1;
         //generate random number of simlely faces
         i = 0;//initialize counter
@@ -20,6 +29,7 @@ public class SmileGenerator{//define name of class
             System.out.print(":)");//printing out smiley faces
             i++;//counter plus 1 
         }
+        System.out.println("");
         System.out.println("Step 3");//show step 3
         i = 0;//initialize counter
         while ( i < numberOfSmilelyFaces ){
@@ -29,6 +39,7 @@ public class SmileGenerator{//define name of class
                 break;
             }
         }
+        System.out.println("");
         System.out.println("Step 4");//show step 4
         i = 0;//initialize counter
         int j = 0, k = 2 ;//define another counter which is used to
@@ -40,7 +51,7 @@ public class SmileGenerator{//define name of class
                 k++;
                 System.out.println("");
             }
-            i++;
+            i++;//counter plus 1 
         }
     }//end of main method
 }//end of class
